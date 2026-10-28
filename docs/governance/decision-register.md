@@ -1,6 +1,6 @@
 # RR-GOV-001 — Decision and Open-Authority Register
 
-**Prepared:** 2026-10-28 · **Status:** Review candidate / not a new acceptance record  
+**Prepared:** 2026-10-28 · **Status:** Review candidate / not a new acceptance record
 **Normative hierarchy:** [Documentation authority](../AUTHORITY.md) → accepted [ADR-0001–0007](../decisions/README.md) → current architecture and roadmap → preserved original sources. Explicit later Owner instructions supersede older directions. This register **indexes** decisions; it **does not replace, amend or manufacture** an ADR or Owner approval.
 
 ## Rules for using this register
