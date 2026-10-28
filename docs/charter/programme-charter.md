@@ -1,7 +1,7 @@
 # RESE RESE — Programme Charter and Scope Authority
 
-**Work package:** RR-GOV-001 · **Version:** 0.1 review candidate · **Prepared:** 2026-10-28  
-**Status:** PROPOSED FOR PRODUCT OWNER / PROGRAMME MODERATOR REVIEW — **NOT APPROVED OR SIGNED**  
+**Work package:** RR-GOV-001 · **Version:** 0.1 review candidate · **Prepared:** 2026-10-28
+**Status:** PROPOSED FOR PRODUCT OWNER / PROGRAMME MODERATOR REVIEW — **NOT APPROVED OR SIGNED**
 **Source authority:** [Documentation precedence](../AUTHORITY.md); [ADR register](../decisions/README.md); [master source](../source/RR-MASTER-01.original.md); [AI source](../source/RR-AI-CORE-01.original.md); [GEO source](../source/RR-GEO-AI-01.original.md).
 
 > This charter records existing binding Owner instructions and accepted architectural directions; approval of this *new charter document*, pilot location, operating policies, legal position and implementation releases remains outstanding. Documentation is neither an operating product nor independent certification.
