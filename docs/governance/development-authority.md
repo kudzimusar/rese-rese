@@ -1,6 +1,6 @@
 # Rese Rese — Development Authority and Specialist Operating Protocol
 
-**Work package:** RR-GOV-001 · **Candidate date:** 2026-10-28 · **Status:** Governance proposal for Moderator/Owner review; not an execution licence.  
+**Work package:** RR-GOV-001 · **Candidate date:** 2026-10-28 · **Status:** Governance proposal for Moderator/Owner review; not an execution licence.
 **Read with:** [AGENTS.md](../../AGENTS.md), [Documentation authority](../AUTHORITY.md), [change control](change-control.md), [evidence](evidence.md), [task registry](../roadmap/tasks.csv), [ADRs](../decisions/README.md) and [release gates](../roadmap/release-gates.md).
 
 ## 1. Authority, roles and separation of duties
@@ -48,11 +48,11 @@ RR-GOV-001 has **no authorized schema migration or application code**. Any subse
 
 ## 7. Required test and evidence pyramid
 
-**Every task:** source/build/toolchain reproducibility, Markdown link and roadmap integrity, formatting, secret scan/diff review, static contract checks and exact-SHA evidence.  
-**Rust and database:** unit/property tests for identities/relationships, schema and permission tests, migrations/rollback, collision/idempotency cases, backup/restore and concurrency.  
-**API/MCP/AI:** cross-tenant access, scope escalation, forged tool calls, injection, redacted logs, replay, ambiguous numbers and price/place constraints, local-model outage.  
-**GEO:** no-coordinate village, two same-name villages, contradictory ward assertions, source licensing, human review, false route ETA prevention and private coordinate masking.  
-**Communities/economy:** multiple groups sharing one offer, independent supplier stock, moderator abuse, revoked membership, accepted quote and custody/settlement evidence.  
+**Every task:** source/build/toolchain reproducibility, Markdown link and roadmap integrity, formatting, secret scan/diff review, static contract checks and exact-SHA evidence.
+**Rust and database:** unit/property tests for identities/relationships, schema and permission tests, migrations/rollback, collision/idempotency cases, backup/restore and concurrency.
+**API/MCP/AI:** cross-tenant access, scope escalation, forged tool calls, injection, redacted logs, replay, ambiguous numbers and price/place constraints, local-model outage.
+**GEO:** no-coordinate village, two same-name villages, contradictory ward assertions, source licensing, human review, false route ETA prevention and private coordinate masking.
+**Communities/economy:** multiple groups sharing one offer, independent supplier stock, moderator abuse, revoked membership, accepted quote and custody/settlement evidence.
 **Field/mobile/voice:** budget Android, network dropout/offline replay, physical rural workflow, low-literacy assisted access and separately scored Shona/Ndebele ASR, numeric and place accuracy.
 
 Capture actual command, working directory/environment, time, exit status, logs and fixture/device/sample provenance. **NOT RUN**, **BLOCKED**, **FAIL** and **PASS** are different states. No invented coverage, completed imports, CI or runtime certification. A successful `cargo test` or attractive screenshot is not evidence of real field behavior.
