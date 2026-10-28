@@ -1,0 +1,15 @@
+name: Documentation Integrity
+on:
+  pull_request:
+  push:
+    branches: [main]
+jobs:
+  docs-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - name: Test Rust docs tool
+        run: cargo test -p rr-docs-check
+      - name: Validate links and 57-task register
+        run: cargo run -p rr-docs-check -- --check
