@@ -1,0 +1,14 @@
+/target/
+/.env
+/.env.*
+!.env.example
+.DS_Store
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.db
+*.db-shm
+*.db-wal
+*.log
+coverage/
+**/__pycache__/
