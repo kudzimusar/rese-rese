@@ -1,0 +1,20 @@
+dependency,classification,role,licence_status,commercial_use_approved,production_policy,fallback,reference
+Rust,F0,Primary language,Review pinned exact version,Pending,Self-hosted,none without ADR,https://www.rust-lang.org/
+TrailBase,F0,Canonical backend,OSL-3.0 review pending,Pending,Self-hosted,none without ADR,https://github.com/trailbaseio/trailbase
+SQLite,F0,Canonical storage,Public domain verify,Pending,Embedded,none without ADR,https://www.sqlite.org/
+Axum,F0,Rust API candidate,Review,Pending,Self-hosted,Native TrailBase APIs,https://github.com/tokio-rs/axum
+Tokio,F0,Async Rust runtime candidate,Review,Pending,Self-hosted,Alternative compatible executor,https://tokio.rs/
+geo / geo-types,F0,Spatial geometry candidate,Review,Pending,Self-hosted,GEOS compatibility analysis,https://github.com/georust/geo
+H3O,F0,Rust H3 candidate,Review,Pending,Self-hosted,SQLite RTree,https://github.com/HydroniumLabs/h3o
+Martin,F0,Map tile server candidate,Review,Pending,Self-hosted,Alternative self-hosted tile engine,https://github.com/maplibre/martin
+MapLibre,F0,2D map UI candidate,Review,Pending,Client,Text-only public place search,https://maplibre.org/
+OpenStreetMap extracts,F1,Map reference data,ODbL attribution and share-alike review,Pending,Local rights-cleared extracts,Community verified local data,https://www.openstreetmap.org/copyright
+Zimbabwe Geoportal,F1,Admin and village data candidates,Per-dataset licence review,Pending,Import quarantine,Consent-based manual mapping,https://zimgeoportal.org.zw/
+GeoNames,F1,Place name candidates,Review exact usage licence,Pending,Import quarantine,Community place assertions,https://www.geonames.org/
+Plus Codes,F0,Coordinate encoding,Review library licence,Pending,Offline local compute,Coordinates and public landmark,https://github.com/google/open-location-code
+mistral.rs,F0,Local inference candidate,Runtime AND model weights licences reviewed separately,Pending,Self-hosted,Alternate local engine,https://github.com/EricLBuehler/mistral.rs
+Candle,F0,Rust ML inference candidate,Review weights separately,Pending,Self-hosted,Alternate local engine,https://github.com/huggingface/candle
+Shona/Ndebele speech datasets,F1,Language evaluation candidates,Dataset-specific rights/consent,Pending,No import before review,Collect consented pilot data,
+Public OSM tiles,F2,Hosted third-party tile service,Restricted public API,No,Not production backbone,Owned tiles,https://operations.osmfoundation.org/policies/tiles/
+Public Nominatim,F2,Hosted geocoder,Restricted public API,No,Not production backbone,Own place index,https://operations.osmfoundation.org/policies/nominatim/
+Paid hosted model/map API,FX,Prohibited mandatory dependency,Paid or restricted,No,Not permitted,Local free alternative,
