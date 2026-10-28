@@ -1,6 +1,6 @@
 # RR-GOV-001 — Evidence-Based First Pilot Selection Framework
 
-**Version:** 0.1 · **Date:** 2026-10-28 · **Status:** Selection framework proposed for Owner/Moderator approval.  
+**Version:** 0.1 · **Date:** 2026-10-28 · **Status:** Selection framework proposed for Owner/Moderator approval.
 **Critical status:** **NO pilot location, corridor, partner, village, field sample or launch is selected or approved by this document.** The first pilot is a town or growth point connected to multiple rural settlements, not a city-only demonstration.
 
 **Source requirements:** [RR-MASTER-01 §13.3–13.5](../source/RR-MASTER-01.original.md), [RR-GEO-AI-01 §16](../source/RR-GEO-AI-01.original.md), [programme charter](../charter/programme-charter.md), [GEO authority](../architecture/geo-ai.md), [ADR-0004](../decisions/ADR-0004-evidence-based-geo.md), [release gates](release-gates.md).
