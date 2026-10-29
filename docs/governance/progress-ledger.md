@@ -40,7 +40,7 @@ Count a task **ACCEPTED** only if the current authority registers a disposition 
 | Application implementation | Not started / not evidenced | No marketplace, TrailBase, GEO or AI runtime certification |
 | Weighted overall completion | Not baselined | No approved estimates |
 
-**PR #1 candidate:** [OPEN / DRAFT](https://github.com/kudzimusar/rese-rese/pull/1), head `58276f2ebe989532f8962bce2c89468813f0b2c0`, [documentation CI PASS](https://github.com/kudzimusar/rese-rese/actions/runs/40695727170), **NOT ACCEPTED / NOT MERGED** at this snapshot.
+**PR #1 candidate:** [OPEN / DRAFT](https://github.com/kudzimusar/rese-rese/pull/1), head `58276f2ebe989532f8962bce2c89468813f0b2c0`, [documentation CI PASS](https://github.com/kudzimusar/rese-rese/actions/runs/40695727170), **NOT ACCEPTED / NOT MERGED** at this snapshot. Subsequent independent review: **BLOCK — OWNER_POLICY** for formal scope-freeze ratification; review ID `5691749101`.
 
 **No declaration that the complete product is 0% built is intended.** A significant architectural documentation foundation exists, but the specific percentage is strictly the accepted-work-package ratio.
 
@@ -79,5 +79,7 @@ When no fresh GitHub read is possible, publish **“last verified”**, date and
 ## 6. Record history
 
 - **2026-10-29:** Created source-backed moderator baseline. Formal acceptance `0/57 = 0.0%`; RR-GOV-001 PR #1 candidate separate. This ledger itself is documentation-only until reviewed/merged.
+
+- **2026-10-29:** Independent RR-GOV-001 source review recorded at PR #1, review ID `5691749101`. Disposition **BLOCK — OWNER_POLICY** pending explicit charter ratification; no substantive source defect identified; register remains 0/57 = **0.0% acceptance coverage**, G-A not certified. Do not count blocked Owner sign-off as failed product implementation. Current governance continuity changes are on draft PR #2, not merged to `main`.
 
 Append a new dated row after future **verified** changes; retain prior snapshots for comparability.
