@@ -34,7 +34,7 @@ Count a task **ACCEPTED** only if the current authority registers a disposition 
 | **Acceptance coverage** | **0.0%** | `0 ÷ 57 × 100` |
 | Open candidate packages evidenced | 1 | RR-GOV-001 in open draft PR #1 |
 | Candidate count relative to baseline | 1/57 (1.8%) | **Activity only**, not accepted progress |
-| Independently verified blocked packages | Not established | Do not infer 0 real blockers from absence of entries |
+| Independently verified blocked current work | 1 Owner-policy gate (RR-GOV-001) | Open PR #1 remains in_review; underlying main task status stays proposed until authorized update |
 | Gate G-A | In progress, NOT CERTIFIED | Governance candidate exists, foundational prerequisites open |
 | Gate G-B through G-F | Not certified | No applicable physical acceptance evidence |
 | Application implementation | Not started / not evidenced | No marketplace, TrailBase, GEO or AI runtime certification |
@@ -62,6 +62,15 @@ When no fresh GitHub read is possible, publish **“last verified”**, date and
 4. Record changes in a dated summary when a work package is formally accepted, its status changes, a dependency becomes blocked, or the Owner changes scope.
 5. Keep proof references and the calculation auditable. Never move work from proposed to accepted solely to increase the displayed percentage.
 
+## 4A. RR-GOV-001-ICR-01 specialist return — 2026-10-29
+
+- Report received from the Product Owner, with independent-specialist recommendation **ACCEPT SUBJECT TO OWNER CHARTER APPROVAL**.
+- Moderator reverified PR #1 at exact candidate `58276f2ebe989532f8962bce2c89468813f0b2c0`, `main`, 12 commits / eight files, exact-head GitHub docs CI PASS and prior review.
+- **Final governing disposition remains BLOCK — OWNER_POLICY**, not new specialist remediation; formal charter sign-off missing.
+- **Accepted: 0/57 = 0.0%;** **one submitted, independently reviewed package held at Owner gate**, G-A still IN PROGRESS / NOT CERTIFIED.
+- Detailed review record: [RR-GOV-001-ICR-01](reviews/rr-gov-001-icr-01.md) on draft PR #2, hence **PR_PENDING**, not a merged acceptance record.
+- Next action: Owner charter approve / request revision / reject for exact candidate SHA; only then proceed with status and downstream governance dispatch.
+
 ## 5. Current phase/vertical matrix
 
 | Vertical | Verified implementation/certification status |
@@ -81,5 +90,7 @@ When no fresh GitHub read is possible, publish **“last verified”**, date and
 - **2026-10-29:** Created source-backed moderator baseline. Formal acceptance `0/57 = 0.0%`; RR-GOV-001 PR #1 candidate separate. This ledger itself is documentation-only until reviewed/merged.
 
 - **2026-10-29:** Independent RR-GOV-001 source review recorded at PR #1, review ID `5691749101`. Disposition **BLOCK — OWNER_POLICY** pending explicit charter ratification; no substantive source defect identified; register remains 0/57 = **0.0% acceptance coverage**, G-A not certified. Do not count blocked Owner sign-off as failed product implementation. Current governance continuity changes are on draft PR #2, not merged to `main`.
+
+- **2026-10-29:** External independent specialist report `RR-GOV-001-ICR-01` supplied by Owner; favorable source finding and recommendation to accept subject to Owner approval; moderator independently reconciled live PR/CI. **Disposition still BLOCK — OWNER_POLICY; 0/57 = 0.0%.** [Review record](reviews/rr-gov-001-icr-01.md).
 
 Append a new dated row after future **verified** changes; retain prior snapshots for comparability.
