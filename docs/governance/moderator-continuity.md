@@ -1,0 +1,83 @@
+# RESE RESE — Programme Moderator Continuity Record
+
+**Record type:** Living moderator handoff / verified programme snapshot  
+**As of:** 2026-10-29 (Asia/Tokyo)  
+**Status:** Documentation-only candidate on `docs/rr-mod-001-programme-moderator-skill`; final acceptance remains pending.  
+**Controlling operator skill:** [RESE RESE moderator skill](../../.agents/skills/rese-rese-programme-moderator/SKILL.md)
+
+> **Read first, then verify live remote state.** This record is not permission to assume an open PR is accepted or that yesterday's SHA is current. Upon each new moderation turn, fetch `main`, PRs, CI and the official task register; distinguish a timestamped snapshot from a fresh check.
+
+## 1. Product Owner goal and moderator mandate
+
+Build a Zimbabwe-first AI-native national economic marketplace, including village and rural users with no formal address, connecting work, skills, products, communities, transport and trade through **one** canonical economic graph. The moderator owns **agent orchestration, the dependency-aware development plan, review/custody, independent certification, progress percentages and continuity**. The Owner should not need to reconstruct project state from chats.
+
+**Hierarchy:** Owner final authority; Global Moderator portfolio alignment; Rese Rese Moderator programme custody; specialist agents implement; independent reviewers verify; Owner-authorized merge/release gates remain protected.
+
+## 2. Binding constraints (frozen unless explicit Owner revision)
+
+- Primary implementation **Rust**; canonical backend **TrailBase + SQLite** (supersedes older Postgres/PostGIS-first proposals).
+- One economic core for **Skills**, **Communities** and **GEO** with stable ID/ownership/permissions; village without coordinates is a valid place; evidence-backed map assertions.
+- Self-hostable core with **no mandatory paid API**; software, dataset, model-weight and attribution/commercial rights reviewed; free software still incurs operations costs.
+- Local/multilingual AI with authorization, explicit confirmation as needed, and deterministic Rust transaction authority; no unrestricted model database mutation.
+- No unapproved Tengasell integration, Production changes, merges, provider billing or data imports.
+- Historical complete source plans preserved in `docs/source/`; accepted current ADRs and `docs/AUTHORITY.md` override superseded proposals.
+
+## 3. Verified Git / PR state at snapshot
+
+| Field | Evidence / exact value |
+|---|---|
+| Repository | [kudzimusar/rese-rese](https://github.com/kudzimusar/rese-rese) |
+| `main` remote head (snapshot) | `7207b57dd03bd362a007173828b0852a00882fb0` |
+| Current main stage | Documentation/architecture foundation, **no marketplace product implementation** |
+| Active governance candidate | `RR-GOV-001`: [draft PR #1](https://github.com/kudzimusar/rese-rese/pull/1), OPEN / DRAFT / UNMERGED |
+| PR #1 head at snapshot | `58276f2ebe989532f8962bce2c89468813f0b2c0` |
+| PR #1 CI at snapshot | [Documentation Integrity PASS](https://github.com/kudzimusar/rese-rese/actions/runs/40695727170); **not independent acceptance** |
+| Current moderator skill candidate | `docs/rr-mod-001-programme-moderator-skill`; documentation only; **not an implementation acceptance** |
+| Registered packages in `main` | 57 (49 inherited + 8 Rust/TrailBase qualifications), all recorded `proposed` |
+| Formal recorded accepted tasks in `main` | 0 |
+| Current phase gate | G-A architecture/governance prerequisites **IN PROGRESS / NOT CERTIFIED** |
+| Local development evidence | Owner reported Apple Silicon Rust 1.99.1, Cargo tests PASS (one test), docs checker PASS (57 tasks, 37 Markdown files) |
+| TrailBase runtime/product | **NOT IMPLEMENTED / NOT CERTIFIED** |
+| Owner-authorized Production/Tengasell mutation | **NONE** |
+
+**Caution:** An open PR #1 is real work under independent review but **not** 1 accepted task. A user-reported local test is evidence of that reported command, not proof of a deployed marketplace.
+
+## 4. Measured baseline
+
+**Formal acceptance coverage:** `0 accepted / 57 baselined work packages × 100 = 0.0%`.
+
+**Candidate activity:** `1/57` packages has a current draft candidate under review (**RR-GOV-001**, PR #1). It is NOT added to the accepted numerator.
+
+**Product functionality:** Not implemented; no verified marketplace, GEO database, voice, transaction or TrailBase runtime feature. **Effort-weighted completion has not been baselined**, so do not assert a false total product percentage.
+
+See [Progress ledger](progress-ledger.md) for definitions, status convention and comparison rules. Refresh metrics from the registry, recorded decisions and live PRs.
+
+## 5. Active agent/workstream custody
+
+The **Governance & Architecture Specialist** has submitted the RR-GOV-001 candidate via PR #1, but the specific implementer identity and independent reviewer are **not verified by this record**. Do not invent their identity, authorization, ongoing work or availability. The immediate next action is moderator-independent review of PR #1 at the exact fresh remote head, not duplicate RR-GOV-001 implementation.
+
+Record any future assignments, reviewers, blockers, handoffs and recustody in [agent register](agent-register.csv). No other implementation specialists are independently confirmed assigned here.
+
+## 6. Dependency-safe next sequence
+
+1. **Now:** Independently review `RR-GOV-001` PR #1 — charter, decision register, development authority, pilot framework, 57-task continuity, source preservation, exact-head CI and Owner approval requirements. Issue **ACCEPT**, **REMEDIATE** or **BLOCK** after real review. Do not merge automatically.
+2. After RR-GOV-001 acceptance, dispatch `RR-GOV-002` source/licence register qualification and `RR-ARC-001` canonical domain authority as dependencies permit. `RR-GOV-003` Zimbabwe legal/sector review runs as a controlled prerequisite to public user or regulated-sector activation.
+3. After accepted architecture and licensing prerequisites: `RR-RUST-ARCH-01` workspace foundation.
+4. Then `RR-TB-CORE-01` TrailBase runtime qualification; then `RR-TB-GEO-01` and `RR-TB-LOAD-01` with evidence.
+5. Beyond those, follow the 57-package register and G-A to G-F gates. No premature financial, geographic, credential or Production claims.
+
+## 7. Unresolved / owner-controlled items
+
+- RR-GOV-001 independent disposition and formal acceptance.
+- Approved pilot location and field partnerships **not selected**.
+- Zimbabwe legal, employment, sector and protection review **not certified**.
+- Source/model/data licence rights **not all cleared**.
+- TrailBase pinned-runtime concurrency, authorization and restore **not qualified**.
+- Independent device, language, offline, routing and public geographic evidence **not yet obtained**.
+- Any future Tengasell cross-system contract/integration **separate Owner authority**.
+
+## 8. Required continuity handoff on every major update
+
+Preserve: date/time + source, exact remote `main` and active PR heads, accepted work-package IDs and SHA chain, agent identity/role/assignment, dispatch state and owner, progress percentages and denominator, current gate, open risks/blockers, latest independent evidence, next *single* dependency-safe action, forbidden actions, and whether Git records were actually updated.
+
+If a new agent finds only this document, it must **re-fetch live repository data before making a governance decision**. The Owner's explicit new instruction supersedes old snapshots.
