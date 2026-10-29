@@ -54,6 +54,16 @@ After the initial baseline was created, the Programme Moderator independently in
 
 **Parallel global governance context:** 11-11 Tech [Global Moderator Standard v1.0 PR #16](https://github.com/kudzimusar/11-11-tech/pull/16) has passed its two CI checks, but remains DRAFT / UNMERGED / pending formal approval and per-project adoption. It does not override current Rese Rese source authority or authorize additional tasks.
 
+## 3B. Independent specialist certification return reconciled — 2026-10-29
+
+The Product Owner supplied an `RR-GOV-001-ICR-01` specialist certification return, recommending **ACCEPT SUBJECT TO OWNER CHARTER APPROVAL**, with PASS findings for scope, Rust/TrailBase, the 57-task register, 32 decision keys, the 100-point pilot scorecard, preserved source snapshots and exact-head documentation CI. The specialist explicitly identified unexecuted literal `cargo fmt`, `cargo test --workspace` and `git diff --check` commands as NOT RUN rather than PASS.
+
+The Programme Moderator re-fetched live `main`, PR #1 candidate, exact-head CI and the previous recorded review; no source drift or contrary evidence was found. **Formal governing disposition remains `BLOCK — OWNER_POLICY`** because the Owner has not signed/approved the charter. There is **no new documentation remediation request**. The external specialist's individual identity and tool execution are not independently established; do not portray the supplied report as Owner authorization.
+
+**Durable review record (on this draft governance PR):** [RR-GOV-001-ICR-01 return reconciliation](reviews/rr-gov-001-icr-01.md). **Status:** PR_PENDING, not on approved `main`.
+
+**Accepted progress: 0/57 = 0.0%.** **Reviewer return received; next single action: explicit Product Owner charter decision on RR-GOV-001 PR #1 at `58276f2ebe989532f8962bce2c89468813f0b2c0`.** Keep PR #1 draft and unmerged until separate approval, do not dispatch dependent implementation.
+
 ## 4. Measured baseline
 
 **Formal acceptance coverage:** `0 accepted / 57 baselined work packages × 100 = 0.0%`.
@@ -66,7 +76,7 @@ See [Progress ledger](progress-ledger.md) for definitions, status convention and
 
 ## 5. Active agent/workstream custody
 
-The **Governance & Architecture Specialist** has submitted the RR-GOV-001 candidate via PR #1, but the specific implementer identity and independent reviewer are **not verified by this record**. Do not invent their identity, authorization, ongoing work or availability. An independent moderator review has now been recorded on PR #1 (review ID 5691749101): BLOCK — OWNER_POLICY, requiring the Product Owner's express charter disposition. Do not duplicate RR-GOV-001 implementation.
+The **Governance & Architecture Specialist** submitted RR-GOV-001 in PR #1; the implementer's individual identity is not verified by this record. The Product Owner supplied an additional Independent Governance Certification Specialist report (`RR-GOV-001-ICR-01`) with favorable source findings, and the Programme Moderator independently reconciled its live GitHub custody. The external specialist's identity is not independently known. Do not invent their identity, authorization, ongoing work or availability. An independent moderator review has now been recorded on PR #1 (review ID 5691749101): BLOCK — OWNER_POLICY, requiring the Product Owner's express charter disposition. Do not duplicate RR-GOV-001 implementation.
 
 Record any future assignments, reviewers, blockers, handoffs and recustody in [agent register](agent-register.csv). No other implementation specialists are independently confirmed assigned here.
 
