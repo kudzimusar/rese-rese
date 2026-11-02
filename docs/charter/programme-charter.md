@@ -1,10 +1,10 @@
 # RESE RESE — Programme Charter and Scope Authority
 
-**Work package:** RR-GOV-001 · **Version:** 0.1 review candidate · **Prepared:** 2026-10-28
-**Status:** PROPOSED FOR PRODUCT OWNER / PROGRAMME MODERATOR REVIEW — **NOT APPROVED OR SIGNED**
+**Work package:** RR-GOV-001 · **Original candidate:** v0.1 (2026-10-28) · **Owner-ratified:** 2026-11-02
+**Status:** **PRODUCT OWNER APPROVED / MODERATOR ACCEPTED** for original exact source SHA `58276f2ebe989532f8962bce2c89468813f0b2c0`; **UNMERGED**. [Approval and acceptance evidence](../governance/approvals/rr-gov-001-owner-ratification.md). These administrative status edits are follow-up to, not a replacement of, the approved source.
 **Source authority:** [Documentation precedence](../AUTHORITY.md); [ADR register](../decisions/README.md); [master source](../source/RR-MASTER-01.original.md); [AI source](../source/RR-AI-CORE-01.original.md); [GEO source](../source/RR-GEO-AI-01.original.md).
 
-> This charter records existing binding Owner instructions and accepted architectural directions; approval of this *new charter document*, pilot location, operating policies, legal position and implementation releases remains outstanding. Documentation is neither an operating product nor independent certification.
+> This charter records existing binding Owner instructions and accepted architectural directions. **The charter itself was explicitly approved by the Product Owner on 2026-11-02 at the original candidate SHA**, following independent governance certification. **Pilot location, operating policies, legal position, exact technology qualifications and implementation releases remain outstanding.** Documentation is not an operating product.
 
 ## 1. Identity, mission and outcome
 
@@ -108,7 +108,7 @@ Critical risks: wrong place geometry; private location disclosure; false credent
 
 ## 18. Outstanding decisions — *not Owner-approved by this document*
 
-1. Appoint named accountable Moderator, independent certifiers, source/legal stewards and privacy lead; approve final charter revision.
+1. Appoint named accountable Moderator, independent certifiers, source/legal stewards and privacy lead. **The charter scope itself was Owner-approved on 2026-11-02 at the exact original candidate SHA;** later substantive revisions require a new approval.
 2. Select field-validated pilot corridor after [pilot scoring](../roadmap/pilot-selection.md), local community partnership and legal/privacy screening; **no location selected**.
 3. Approve first lawful pilot sectors, prohibited listing categories, identity/verification and dispute policy.
 4. Determine pilot payment posture (manual declared settlement vs any provider integration), fees, handling of buyer protection and consent.
@@ -123,13 +123,13 @@ Track these in the [decision register](../governance/decision-register.md); none
 
 | Approval field | Current record |
 |---|---|
-| Charter candidate | RR-GOV-001 v0.1, 2026-10-28 |
+| Charter candidate | RR-GOV-001 v0.1 source ratified at `58276f2ebe989532f8962bce2c89468813f0b2c0` |
 | Prepared for | Product Owner / Programme Moderator |
-| Specialist recommendation | Pending completed evidence and review |
-| Independent certification | **NOT PERFORMED** |
-| Owner name / signature | **NOT PROVIDED** |
-| Approval date / authorized scope | **NOT PROVIDED** |
-| Final disposition | **PENDING** |
-| Supersession / next version | Record explicitly in a future authorized change |
+| Specialist recommendation | RR-GOV-001-ICR-01: recommend ACCEPT subject to Owner approval (2026-10-29) |
+| Independent certification | **COMPLETE for documentation scope**; specialist return + Moderator exact-SHA review; see [ratification record](../governance/approvals/rr-gov-001-owner-ratification.md) |
+| Owner name / signature | Explicit Product Owner instruction in programme conversation, [recorded on PR #1](https://github.com/kudzimusar/rese-rese/pull/1#issuecomment-6570133364); no external or handwritten signature claimed |
+| Approval date / authorized scope | **2026-11-02**, RR-GOV-001 charter and scope freeze at exact original SHA; no merge/release authorization |
+| Final disposition | **ACCEPT — original exact SHA**, [Moderator review](https://github.com/kudzimusar/rese-rese/pull/1); administrative ratification separately unmerged |
+| Supersession / next version | Substantive scope unchanged; only approval/status metadata added on a separate stacked branch |
 
-**No signature, legal certification, pilot approval or authorization to merge/deploy is implied.**
+**No external signature, legal certification, pilot approval or authorization to merge/deploy is implied.**
