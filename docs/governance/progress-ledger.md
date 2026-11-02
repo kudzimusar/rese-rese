@@ -44,6 +44,14 @@ Count a task **ACCEPTED** only if the current authority registers a disposition 
 
 **No declaration that the complete product is 0% built is intended.** A significant architectural documentation foundation exists, but the specific percentage is strictly the accepted-work-package ratio.
 
+## 2A. New formal acceptance — 2026-11-02
+
+**1 / 57 = 1.8% accepted-work-package coverage.** Formal Moderator **ACCEPT** at `RR-GOV-001` original approved SHA `58276f2ebe989532f8962bce2c89468813f0b2c0`, based on the independent specialist return, exact-head CI and [explicit Owner ratification](https://github.com/kudzimusar/rese-rese/pull/1#issuecomment-6570133364). [Moderator acceptance review](https://github.com/kudzimusar/rese-rese/pull/1) ID `5732572106`.
+
+**Source acceptance is not merge.** PR #1 is OPEN/DRAFT/UNMERGED; `main` task register may still list all 57 as proposed. [Stacked draft PR #3](https://github.com/kudzimusar/rese-rese/pull/3) records `RR-GOV-001` `accepted` in its candidate CSV and adds an administrative Owner approval record. Do not report the candidate status edit as present on main before separately authorized merges.
+
+**Current phase gate:** G-A IN PROGRESS / NOT CERTIFIED. **Next:** RR-GOV-002 open-source/data/API/model licence qualification, dispatch **prepared not executed**, specialist/reviewer **UNASSIGNED**.
+
 ## 3. What the Owner should see every time
 
 Use an always-visible concise status line in substantive Rese Rese progress/dispatch/review answers:
@@ -75,7 +83,7 @@ When no fresh GitHub read is possible, publish **“last verified”**, date and
 
 | Vertical | Verified implementation/certification status |
 |---|---|
-| Programme governance | Existing planning files; RR-GOV-001 candidate under review |
+| Programme governance | RR-GOV-001 formally accepted at Owner-approved exact SHA on 2026-11-02; PR #1 and stacked PR #3 unmerged |
 | Platform Rust / TrailBase | Rust documentation checker works; product backend not implemented |
 | Skills and marketplace | Designed; not implemented or physically verified |
 | Communities | Designed; not implemented or physically verified |
@@ -92,5 +100,7 @@ When no fresh GitHub read is possible, publish **“last verified”**, date and
 - **2026-10-29:** Independent RR-GOV-001 source review recorded at PR #1, review ID `5691749101`. Disposition **BLOCK — OWNER_POLICY** pending explicit charter ratification; no substantive source defect identified; register remains 0/57 = **0.0% acceptance coverage**, G-A not certified. Do not count blocked Owner sign-off as failed product implementation. Current governance continuity changes are on draft PR #2, not merged to `main`.
 
 - **2026-10-29:** External independent specialist report `RR-GOV-001-ICR-01` supplied by Owner; favorable source finding and recommendation to accept subject to Owner approval; moderator independently reconciled live PR/CI. **Disposition still BLOCK — OWNER_POLICY; 0/57 = 0.0%.** [Review record](reviews/rr-gov-001-icr-01.md).
+
+- **2026-11-02:** Owner explicitly approved charter at `58276f2ebe989532f8962bce2c89468813f0b2c0` and instructed **no merge**. Moderator formally **ACCEPTED** exact source (review `5732572106`). **Accepted 1/57 = 1.8%**; `main` integration pending; ratification/status candidate in [stacked PR #3](https://github.com/kudzimusar/rese-rese/pull/3); RR-GOV-002 dispatch prepared, not assigned.
 
 Append a new dated row after future **verified** changes; retain prior snapshots for comparability.
