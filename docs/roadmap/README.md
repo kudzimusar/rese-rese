@@ -1,13 +1,13 @@
 # Development Roadmap — 57 Named Work Packages
 
-**Authority:** [Programme Charter (review candidate)](../charter/programme-charter.md), [Documentation Authority](../AUTHORITY.md), [decision register](../governance/decision-register.md), [ADRs](../decisions/README.md), and three immutable [source specifications](../source/README.md). The 49 inherited tasks plus eight Rust/TrailBase qualification tasks remain in the machine-readable [tasks.csv](tasks.csv); their identifiers and definitions are preserved.
+**Authority:** [Owner-approved Programme Charter](../charter/programme-charter.md), [Documentation Authority](../AUTHORITY.md), [decision register](../governance/decision-register.md), [ADRs](../decisions/README.md), and three immutable [source specifications](../source/README.md). The 49 inherited tasks plus eight Rust/TrailBase qualification tasks remain in the machine-readable [tasks.csv](tasks.csv); their identifiers and definitions are preserved.
 
-**Current programme state (2026-10-28):** Documentation-only architecture. No Rese Rese marketplace runtime, canonical TrailBase migrations, verified national datasets, AI/voice service or live pilot implemented. `RR-GOV-001` is **in_review**, not accepted. All other work packages retain their recorded status; no dependent implementation is authorized by this roadmap alone.
+**Current programme state (2026-11-02):** Documentation-only architecture, without a live marketplace, canonical TrailBase migrations, verified national datasets, AI/voice service or pilot. **RR-GOV-001 ACCEPTED at the exact Owner-approved unmerged candidate SHA**; [ratification evidence](../governance/approvals/rr-gov-001-owner-ratification.md). Accepted-work-package coverage: **1/57 = 1.8%**, not overall product completion. RR-GOV-002 is dependency-ready for a separately controlled specialist dispatch; no Production, paid API or merger authorization follows.
 
 ## Controlled progression
 
 ```text
-RR-GOV-001 (charter / authority; in_review)
+RR-GOV-001 (charter / scope; ACCEPTED at approved SHA; unmerged)
       │
       ├── RR-GOV-002 (licence and open-source proof)
       ├── RR-ARC-001 (canonical contracts, ADR and domain boundaries)
@@ -44,6 +44,11 @@ These arrows express **predecessor authority**, not a blanket permission to exec
 ## First pilot selection — currently undecided
 
 Use the [evidence-weighted pilot selection framework](pilot-selection.md) before recommending a town/growth point. It includes multiple villages, economic activity, transport, language, varied connectivity, data rights, trusted field staff, veto conditions and a 100-point scorecard. **No candidate is selected, cleared or approved.** Only a later recorded Product Owner decision and legal/field authorization can activate a pilot.
+
+## Current next dispatch
+
+- [RR-GOV-002 — technology/API/data-licence qualification (prepared, not dispatched)](dispatches/rr-gov-002.md). Specialist and independent reviewer remain unassigned; verify exact source custody before actual execution.
+- [RR-GOV-001 — Owner acceptance record](../governance/approvals/rr-gov-001-owner-ratification.md) is administrative evidence on a stacked draft branch; **no merge authority granted**.
 
 ## Status and evidence discipline
 
