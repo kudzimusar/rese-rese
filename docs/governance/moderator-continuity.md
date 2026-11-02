@@ -64,11 +64,23 @@ The Programme Moderator re-fetched live `main`, PR #1 candidate, exact-head CI a
 
 **Accepted progress: 0/57 = 0.0%.** **Reviewer return received; next single action: explicit Product Owner charter decision on RR-GOV-001 PR #1 at `58276f2ebe989532f8962bce2c89468813f0b2c0`.** Keep PR #1 draft and unmerged until separate approval, do not dispatch dependent implementation.
 
+## 3C. Owner approval and exact-SHA programme ACCEPT — 2026-11-02
+
+**The Owner explicitly approved RR-GOV-001** at source SHA `58276f2ebe989532f8962bce2c89468813f0b2c0` and expressly instructed **DO NOT MERGE**. Approval evidence was recorded on [PR #1](https://github.com/kudzimusar/rese-rese/pull/1#issuecomment-6570133364). The Programme Moderator reverified the remote SHA and CI, then recorded the formal **`ACCEPT`** disposition on [PR #1](https://github.com/kudzimusar/rese-rese/pull/1) (review ID `5732572106`), superseding the former `BLOCK — OWNER_POLICY` for the charter. The historical block remains recorded as evidence.
+
+**Accepted exact source:** RR-GOV-001 `58276f2ebe989532f8962bce2c89468813f0b2c0`. **Not merged**; `main` continues at `7207b57dd03bd362a007173828b0852a00882fb0` at this snapshot. Do not confuse source acceptance with integration or release.
+
+A separate [stacked draft PR #3](https://github.com/kudzimusar/rese-rese/pull/3), based on the frozen PR #1 candidate, records the [Owner ratification](https://github.com/kudzimusar/rese-rese/blob/docs/rr-gov-001-owner-ratification-acceptance/docs/governance/approvals/rr-gov-001-owner-ratification.md), administrative charter/decision metadata, `RR-GOV-001.status=accepted` in its **candidate** task register, and the [prepared RR-GOV-002 dispatch](https://github.com/kudzimusar/rese-rese/blob/docs/rr-gov-001-owner-ratification-acceptance/docs/roadmap/dispatches/rr-gov-002.md). PR #1 is **untouched**. No authorization to merge PR #1, #2, or #3.
+
+**Programme progress as of 2026-11-02: 1 accepted / 57 baselined = 1.8% acceptance coverage** (not percent product coded). **Integrated into `main`: still 0 task-status records** until a later separate authorized merge; do not conflate this with Owner-approved acceptance. G-A remains IN PROGRESS / NOT CERTIFIED.
+
+**Next task:** `RR-GOV-002 — Open Technology, API and Data-Licence Register` is now dependency-ready under the accepted source. Its full specialist prompt is **PREPARED**, but no actual specialist or reviewer has yet been assigned or started; next step is the controlled dispatch, not implementation claimed complete.
+
 ## 4. Measured baseline
 
-**Formal acceptance coverage:** `0 accepted / 57 baselined work packages × 100 = 0.0%`.
+**Current formal acceptance coverage (2026-11-02):** `1 accepted / 57 baselined work packages × 100 = 1.8%` (exact Owner-approved source accepted; unmerged). Earlier 0/57 entry below is a dated historical snapshot.
 
-**Candidate activity:** `1/57` packages has a current draft candidate under review (**RR-GOV-001**, PR #1). It is NOT added to the accepted numerator.
+**Candidate activity:** `RR-GOV-001` PR #1 is an accepted but **unmerged** source candidate. PR #3 is an unmerged administrative ratification/status follow-up, and PR #2 remains unmerged moderator continuity. `RR-GOV-002` has a prepared dispatch only.
 
 **Product functionality:** Not implemented; no verified marketplace, GEO database, voice, transaction or TrailBase runtime feature. **Effort-weighted completion has not been baselined**, so do not assert a false total product percentage.
 
@@ -82,7 +94,7 @@ Record any future assignments, reviewers, blockers, handoffs and recustody in [a
 
 ## 6. Dependency-safe next sequence
 
-1. **Now:** Request and record the Product Owner's express disposition on `RR-GOV-001` PR #1 charter at exact candidate SHA. Independent review completed with **BLOCK — OWNER_POLICY** solely pending Owner sign-off; no additional specialist redraft is requested. Do not merge automatically.
+1. **Now:** RR-GOV-001 **ACCEPTED** at exact Owner-approved source SHA; preserve PR #1 unchanged and unmerged. Complete independent review of the stacked ratification/status [PR #3](https://github.com/kudzimusar/rese-rese/pull/3); do not merge without separate authority. Prepare the bounded specialist dispatch for **RR-GOV-002**, already drafted in PR #3, with actual agent/reviewer assignment only when initiated.
 2. After RR-GOV-001 acceptance, dispatch `RR-GOV-002` source/licence register qualification and `RR-ARC-001` canonical domain authority as dependencies permit. `RR-GOV-003` Zimbabwe legal/sector review runs as a controlled prerequisite to public user or regulated-sector activation.
 3. After accepted architecture and licensing prerequisites: `RR-RUST-ARCH-01` workspace foundation.
 4. Then `RR-TB-CORE-01` TrailBase runtime qualification; then `RR-TB-GEO-01` and `RR-TB-LOAD-01` with evidence.
@@ -90,7 +102,7 @@ Record any future assignments, reviewers, blockers, handoffs and recustody in [a
 
 ## 7. Unresolved / owner-controlled items
 
-- RR-GOV-001 independent review completed: **BLOCK — OWNER_POLICY**; formal Product Owner charter acceptance remains outstanding.
+- RR-GOV-001 prior **BLOCK — OWNER_POLICY** was resolved by explicit Owner charter approval (2026-11-02) and formal Moderator **ACCEPT** at original source SHA; **merge authority remains absent**.
 - Approved pilot location and field partnerships **not selected**.
 - Zimbabwe legal, employment, sector and protection review **not certified**.
 - Source/model/data licence rights **not all cleared**.
