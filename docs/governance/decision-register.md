@@ -1,6 +1,6 @@
 # RR-GOV-001 — Decision and Open-Authority Register
 
-**Prepared:** 2026-10-28 · **Status:** Review candidate / not a new acceptance record
+**Prepared:** 2026-10-28 · **Owner ratification recorded:** 2026-11-02 for RR-GOV-001 original exact SHA; see [Owner acceptance](approvals/rr-gov-001-owner-ratification.md). This index does not itself confer any other pending permissions.
 **Normative hierarchy:** [Documentation authority](../AUTHORITY.md) → accepted [ADR-0001–0007](../decisions/README.md) → current architecture and roadmap → preserved original sources. Explicit later Owner instructions supersede older directions. This register **indexes** decisions; it **does not replace, amend or manufacture** an ADR or Owner approval.
 
 ## Rules for using this register
@@ -48,7 +48,7 @@ The seven ADRs listed above are **already existing** records. RR-DEC IDs are ind
 
 | Stable ID | Source / date | Status | Decision authority | Required evidence / what remains unapproved | Link |
 |---|---|---|---|---|---|
-| RR-DEC-019 | RR-MASTER-01 §17 / 2026-10-28 | PENDING OWNER | Product Owner + Programme Moderator | Explicitly approve charter version, named Moderator and independent certifier; RR-GOV-001 specialist completion is not an approval. | [Charter](../charter/programme-charter.md) |
+| RR-DEC-019 | RR-MASTER-01 §17 / 2026-10-28; Owner decision 2026-11-02 | PENDING OWNER — REMAINING ROLE APPOINTMENTS | Product Owner + Programme Moderator | **Charter approved** at SHA `58276f2ebe989532f8962bce2c89468813f0b2c0` after independent review. Named accountable reviewers, domain stewards and other operational appointments remain individually pending; [ratification evidence](approvals/rr-gov-001-owner-ratification.md). | [Charter](../charter/programme-charter.md) |
 | RR-DEC-020 | RR-MASTER-01 §13.3 / 2026-10-28 | PENDING OWNER | Product Owner with field researchers, GIS/Trust/Legal reviewers | Select pilot town/growth point and connected villages only after scoring, consent, source rights, logistics and legal evidence; **none currently selected or approved**. | [Pilot framework](../roadmap/pilot-selection.md) |
 | RR-DEC-021 | RR-MASTER-01 §§10,17 / 2026-10-28 | LEGAL REVIEW REQUIRED | Qualified Zimbabwe adviser + Owner policy | Determine applicable data protection/controller duties, employment/recruitment law, consumer terms, regulated services, advertising, minors, mining, agriculture, finance/payments, cross-border trade and intermediary liability. No jurisdictional compliance certified. | [RR-GOV-003 task](../roadmap/tasks.csv) |
 | RR-DEC-022 | RR-MASTER-01 §17 / 2026-10-28 | PENDING OWNER | Product Owner after legal/trust review | Pilot allowed sectors and prohibited classes, verification criteria, appeals/dispute policies, false-claim response and incident escalation. | [Charter](../charter/programme-charter.md) |
@@ -72,4 +72,4 @@ The seven ADRs listed above are **already existing** records. RR-DEC IDs are ind
 
 For a changed proposal, record the RR-DEC ID, affected task IDs, date, authority, options, consequences, security/privacy/licence evidence and links to actual written Owner decision; amend the corresponding ADR if architectural; update charter/roadmap in the same PR. **Never promote PENDING to BINDING on the basis of a specialist recommendation, draft PR, passing test or inferred consent.**
 
-**RR-GOV-001 review disposition: pending.** No Owner signature, legal opinion, model/dataset licence approval, pilot site approval, infrastructure purchase or Tengasell release is represented here.
+**RR-GOV-001 governance disposition: ACCEPT at Owner-approved exact SHA `58276f2ebe989532f8962bce2c89468813f0b2c0` (2026-11-02), not merged.** This is explicit programme-conversation approval recorded in GitHub, not a claim of external handwritten signature, legal opinion, model/dataset licence approval, pilot site approval, infrastructure purchase or Tengasell release.

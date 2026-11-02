@@ -1,10 +1,10 @@
 # Rese Rese documentation index
 
-**Current stage:** Documentation foundation; application not implemented. **RR-GOV-001:** review candidate (`in_review`) — **no Owner sign-off or independent certification**. Start with [README](../README.md), [Documentation Authority](AUTHORITY.md), [coding-agent rules](../AGENTS.md), and [contributing guidance](../CONTRIBUTING.md).
+**Current stage:** Documentation foundation; application not implemented. **RR-GOV-001:** **Owner-approved and Moderator-accepted** at exact original SHA `58276f2ebe989532f8962bce2c89468813f0b2c0`, **unmerged** ([ratification](governance/approvals/rr-gov-001-owner-ratification.md)). **Accepted packages:** 1/57 = 1.8%; this is task acceptance coverage, not product readiness. Start with [README](../README.md), [Documentation Authority](AUTHORITY.md), [coding-agent rules](../AGENTS.md), and [contributing guidance](../CONTRIBUTING.md).
 
 | Domain | Current governing documents | Preserved source / status |
 |---|---|---|
-| Programme purpose and boundaries | [Programme charter — proposed](charter/programme-charter.md) · [Vision](charter/vision.md) | [Master plan](source/RR-MASTER-01.original.md) |
+| Programme purpose and boundaries | [Programme charter — Owner approved](charter/programme-charter.md) · [Vision](charter/vision.md) | [Master plan](source/RR-MASTER-01.original.md) |
 | Decisions and provenance | [Decision register](governance/decision-register.md) · [Seven ADRs](decisions/README.md) · [Authority order](AUTHORITY.md) | Binding ADRs take precedence over superseded historical implementation proposals |
 | Specialist execution and acceptance | [Development authority](governance/development-authority.md) · [Change control](governance/change-control.md) · [Evidence](governance/evidence.md) | Documentation ≠ implemented ≠ independently certified |
 | Unified architecture | [Overview](architecture/overview.md) · [Rust/TrailBase stack](architecture/technology-stack.md) · [Canonical data](architecture/canonical-data.md) | [Master plan](source/RR-MASTER-01.original.md), with PostgreSQL/PostGIS-first assumptions superseded |

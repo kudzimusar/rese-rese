@@ -2,9 +2,9 @@
 
 **Zimbabwe-first, AI-native, place-aware economic marketplace.**
 
-> **Source of truth:** This Git repository is the living development authority. Read [Documentation Authority](docs/AUTHORITY.md), the [programme charter (review candidate)](docs/charter/programme-charter.md), [binding ADRs](docs/decisions/README.md) and [decision register](docs/governance/decision-register.md) before coding. The preserved [master and technical source specifications](docs/source/README.md) remain historical evidence; newer Owner/ADR decisions prevail.
+> **Source of truth:** This Git repository is the living development authority. Read [Documentation Authority](docs/AUTHORITY.md), the [Owner-approved programme charter](docs/charter/programme-charter.md), [binding ADRs](docs/decisions/README.md) and [decision register](docs/governance/decision-register.md) before coding. The preserved [master and technical source specifications](docs/source/README.md) remain historical evidence; newer Owner/ADR decisions prevail.
 
-**Current stage:** Documentation foundation / architectural specification. **Application status:** **Not implemented** (no live Rese Rese backend, TrailBase application schema, AI service or national dataset imports). **Active package:** `RR-GOV-001` — **in_review**, not Owner-approved. **Repository policy:** No changes to Tengasell or any Production environment without separate explicit Owner authorization.
+**Current stage:** Documentation foundation / architectural specification. **Application status:** **Not implemented** (no live Rese Rese backend, TrailBase application schema, AI service or national dataset imports). **Accepted scope authority:** `RR-GOV-001` — **Owner-approved / Moderator-accepted at original SHA `58276f2ebe989532f8962bce2c89468813f0b2c0`**, unmerged. **Progress:** 1/57 accepted packages = **1.8% acceptance coverage**, not product readiness. **Next:** [RR-GOV-002 licensing specialist dispatch (prepared)](docs/roadmap/dispatches/rr-gov-002.md). [Owner ratification](docs/governance/approvals/rr-gov-001-owner-ratification.md). **Repository policy:** No changes to Tengasell or any Production environment without separate explicit Owner authorization.
 
 ## Purpose
 
