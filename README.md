@@ -1,5 +1,10 @@
 # Rese Rese
 
+## Mandatory Agent Governance
+
+All agents must read [AGENTS.md](AGENTS.md) and [both global governance rules](docs/governance/GLOBAL_AGENT_RULES.md) alongside existing Rese Rese authorities. [Download the central PDF](https://github.com/kudzimusar/11-11-tech/blob/917c16f6d64d7f29d442fec562021dd11687228d/governance/global-moderator/11-11-TECH-GLOBAL-AGENT-GOVERNANCE-v1.0.pdf).
+
+
 **Zimbabwe-first, AI-native, place-aware economic marketplace.**
 
 > **Source of truth:** This repository is the living development authority. Read [Documentation Authority](docs/AUTHORITY.md) first, then the [Programme Roadmap](docs/roadmap/README.md) and relevant architectural decision records. The original master plan and technical specifications are preserved in [`docs/source/`](docs/source/README.md), but updated decisions take precedence.
