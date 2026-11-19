@@ -29,3 +29,25 @@ This file is read **before every task**, together with `README.md` and `docs/AUT
 
 ## Final handoff template
 Task ID; authority and exact parent SHA; branch/head; changed paths; migrations; commands executed and actual outputs; source/licence changes; risk/security analysis; tests/evidence; unresolved blockers; rollback; recommended ACCEPT/REMEDIATE/BLOCK (only a recommendation; owner/moderator decides).
+
+## Mandatory Rese Rese programme-moderator operating skill
+
+**For any moderation, specialist task assignment, programme-status, progress, PR review, acceptance or cross-agent handoff, read and apply [the Rese Rese Programme Moderator Skill](.agents/skills/rese-rese-programme-moderator/SKILL.md).** It inherits the Global Moderator's governance standard and is authoritative for the *moderation workflow*, subject to Owner instructions and accepted ADRs.
+
+Before giving the Owner any substantive programme status, refresh:
+- [Continuity and verified custody](docs/governance/moderator-continuity.md)
+- [Progress percentages and gate methodology](docs/governance/progress-ledger.md)
+- [Agent assignments and pending specialist returns](docs/governance/agent-register.csv)
+- Live GitHub branches, pull requests, CI and [57-package registry](docs/roadmap/tasks.csv)
+
+**Always report** the dated acceptance-coverage percentage (`accepted / baselined tasks`), active candidate PRs, responsible agents, blockers, current gate and next dependency-safe action. This metric is *not* an estimate of overall product feature completeness. Never invent agent execution, accepted work or background monitoring.
+
+## Global 11-11 Tech agent contract
+
+The Owner has directed these two global process rules to apply to every project agent, while **Rese Rese's accepted local authority, Rust/TrailBase architecture and roadmap gates remain controlling**:
+
+- **Goal Fidelity:** [11-11-GM-GF-001](https://github.com/kudzimusar/11-11-tech/blob/917c16f6d64d7f29d442fec562021dd11687228d/governance/global-moderator/GOAL-FIDELITY-STAGE-CONTROL-v1.0.md) — preserve docs/AUTHORITY.md, the 57-package task baseline and the current accepted stage; classify and defer future-phase feedback rather than changing scope on one comment.
+- **Moderator Governance & Continuity:** [11-11-GM-GC-001](https://github.com/kudzimusar/11-11-tech/blob/917c16f6d64d7f29d442fec562021dd11687228d/governance/global-moderator/STANDARD-v1.0.md) — actively manage assignments, independent exact-head ACCEPT/REMEDIATE/BLOCK decisions, accepted N/M or NOT_BASELINED progress, and preventive successor handoffs.
+- **Start here:** [Unified contract](https://github.com/kudzimusar/11-11-tech/blob/917c16f6d64d7f29d442fec562021dd11687228d/governance/global-moderator/AGENT-GOVERNANCE-UNIFIED-v1.0.md), [PDF](https://github.com/kudzimusar/11-11-tech/blob/917c16f6d64d7f29d442fec562021dd11687228d/governance/global-moderator/11-11-TECH-GLOBAL-AGENT-GOVERNANCE-v1.0.pdf), [project mapping](docs/governance/GLOBAL_AGENT_RULES.md).
+
+Keep current [moderator continuity](docs/governance/moderator-continuity.md), [progress ledger](docs/governance/progress-ledger.md), [agent register](docs/governance/agent-register.csv) and source-custody registers as the **single existing system**. Do not create duplicate Rese Rese task baselines. This is a reviewable adoption candidate, not authority to bypass Owner or merge PRs. The central PR #16 remains Draft/unmerged as of source pin.
